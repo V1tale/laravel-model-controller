@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -12,7 +14,5 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-use app\Http\Controllers\PareController as PageController;
-
 
 Route::get('/', [PageController::class, 'index']);

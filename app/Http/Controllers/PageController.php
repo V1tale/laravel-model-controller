@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use all\Http\Controllers\Controller;
-use app\Models\Movie;
+use App\Http\Controllers\Controller;
+use App\Models\Movie;
 use Illuminate\Http\Request;
 
-class Pagecontroller extends Controller
+class PageController extends Controller
 {
     public function index()
     {
